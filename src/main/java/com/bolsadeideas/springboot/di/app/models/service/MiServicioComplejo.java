@@ -2,7 +2,7 @@ package com.bolsadeideas.springboot.di.app.models.service;
 
 import org.springframework.stereotype.Component;
 
-@Component("Complejo")
+//@Component("Complejo")
 public class MiServicioComplejo implements IServicio{
 
     public String operacion(){
