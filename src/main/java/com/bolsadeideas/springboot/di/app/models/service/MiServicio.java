@@ -1,8 +1,13 @@
 package com.bolsadeideas.springboot.di.app.models.service;
 
-public class MiServicio {
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class MiServicio implements IServicio{
 
     public String operacion(){
-        return "ejecutando algun proceso importante...";
+        return "ejecutando algun proceso importante simple...";
     }
 }
